@@ -23,7 +23,14 @@ from nltk.probability import FreqDist
 
 texto = """
 Mi nombre es Javier Campo y soy  Colombia, soy educador y me gusta mucho la IA.
-soy instructor de Contabilidad y Finanzas."""
+soy instructor de Contabilidad y Finanzas.
+Soy Gabriel Arango, biólogo curioso y apasionado por la ciencia. Me encanta todo lo que tenga que ver con células, bichos raros, ilustrar lo que aprendo y compartirlo con los demás.
+
+
+
+"""
+
+
 
 # Tokenización: Convertimos el texto en una lista de palabras individuales
 palabras = word_tokenize(texto, language= 'spanish')
